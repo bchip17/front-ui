@@ -6326,6 +6326,9 @@ section {
   transition: .2s;
   white-space: nowrap
 }
+.menu__link.active:after {
+  opacity: 1;
+}
 
 .menu__link:after {
   content: '';
