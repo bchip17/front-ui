@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="ru">
+  
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta charset="utf-8" />
+
+    <title>BlueChip (BCP) - DeFi Ecosystem</title>
+    <meta name="description" content="A high speed zero fee blockchain with DeFi protocols, NFT projects, and dApps." />
+    <meta name="keywords" content="bcp, bcp blockchain, bcp exchange, bcp coin, bcp defi, bcp token">
+    <meta name="author" content="BlueChip">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.html" />
+    <link rel="icon" href="img/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon-180x180.png"
+    />
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000" />
+    <!-- Custom Browsers Color End -->
+
+    <link rel="stylesheet" href="css/main.min.css" />
+
+    <!-- Load google font
+	================================================== -->
+
+    <script type="text/javascript">
+      WebFontConfig = {
+        google: {
+          families: [
+            'Catamaran:300,400,600,700',
+            'Raleway:100,700',
+            'Roboto:700,900',
+          ],
+        },
+      }
+      ;(function () {
+        var wf = document.createElement('script')
+        wf.src =
+          ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js'
+        wf.type = 'text/javascript'
+        wf.async = 'true'
+        var s = document.getElementsByTagName('script')[0]
+        s.parentNode.insertBefore(wf, s)
+      })()
+    </script>
+
+  <!-- Load other scripts
+	================================================== -->
+
+  <script type="text/javascript">
+    var _html = document.documentElement
+    _html.className = _html.className.replace('no-js', 'js')
+  </script>
+
+  <style>
+    .preloader {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      background-color: #fff;
+      z-index: 9999;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="preloader"></div>
+
+  <div class="wrapper">
+    <header class="header">
+      <a href="#" class="logo">
+        <div class="logo__img"></div>
+      </a>
+
+      <ul class="menu">
+        <li class="menu__item">
+          <a href="#about" class="menu__link">About</a>
+        </li>
+        <li class="menu__item">
+          <a href="#tokenomics" class="menu__link">Tokenomics</a>
+        </li>
+        <li class="menu__item">
+          <a href="#map" class="menu__link">Road Map</a>
+        </li>
+        <li class="menu__item">
+          <a href="#distribution" class="menu__link">Token</a>
+        </li>
+        <li class="menu__item">
+          <a href="https://nft.blueswap.net" class="menu__link">NFT</a>
+        </li>
+        <li class="menu__item">
+          <a href="https://play.blueswap.net" class="menu__link">Games</a>
+        </li>
+        <li class="mob-menu__item">
+          <a href="https://docs.blueswap.net/" class="menu__link">Doc</a>
+        </li>
+      </ul>
+
+      <div class="social-blocktop">
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a href="https://twitter.com/BCPoffical" target="_blank" class="social-list__link">
+              <i class="fontello-icon icon-twitter"></i>
+            </a>
+          </li>
+
+          <li class="social-list__item">
+            <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+              <i class="fontello-icon icon-telegram"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+              <i class="fontello-icon icon-discord"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="header__right">
+        <div class="sign-in-wrap">
+
+          <a href="https://pinksale.com" target="_blank" class="btn btn--medium btn--green btn--uppercase">
+              <span>Presale</span>
+          </a>
+          <a href="https://app.blueswap.net/#/trade" target="_blank" class="btn btn--medium btn--dblue btn--uppercase">
+            <span>OPEN APP</span>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="btn-menu">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+    </header>
+
+    <div class="fixed-menu">
+      <div class="fixed-menu__header">
+        <a href="#" class="logo">
+          <div class="logo__img"></div>
+        </a>
+
+        <div class="btn-close">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 47.971 47.971" style="enable-background: new 0 0 47.971 47.971" xml:space="preserve" width="512px" height="512px">
+            <path d="M28.228,23.986L47.092,5.122c1.172-1.171,1.172-3.071,0-4.242c-1.172-1.172-3.07-1.172-4.242,0L23.986,19.744L5.121,0.88   c-1.172-1.172-3.07-1.172-4.242,0c-1.172,1.171-1.172,3.071,0,4.242l18.865,18.864L0.879,42.85c-1.172,1.171-1.172,3.071,0,4.242   C1.465,47.677,2.233,47.97,3,47.97s1.535-0.293,2.121-0.879l18.865-18.864L42.85,47.091c0.586,0.586,1.354,0.879,2.121,0.879   s1.535-0.293,2.121-0.879c1.172-1.171,1.172-3.071,0-4.242L28.228,23.986z" fill="#006DF0"></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="fixed-menu__content">
+        <ul class="mob-menu">
+          <li class="mob-menu__item">
+            <a href="#about" class="mob-menu__link">About</a>
+          </li>
+          <li class="mob-menu__item">
+            <a href="#tokenomics" class="mob-menu__link">Tokenomics</a>
+          </li>
+          <li class="mob-menu__item">
+            <a href="#map" class="mob-menu__link">Road Map</a>
+          </li>
+          <li class="mob-menu__item">
+            <a href="#distribution" class="mob-menu__link">Token</a>
+          </li>
+          <li class="menu__item">
+            <a href="https://nft.blueswap.net" class="menu__link">NFT</a>
+          </li>  
+          <li class="menu__item">
+            <a href="https://play.blueswap.net" class="menu__link">Games</a>
+          </li>
+          <li class="mob-menu__item">
+            <a href="https://docs.blueswap.net/" class="menu__link">Doc</a>
+          </li>
+        </ul>
+
+        <div class="social-block">
+          <ul class="social-list">
+            <li class="social-list__item">
+              <a href="https://twitter.com/BCPoffical" target="_blank" class="social-list__link">
+                <i class="fontello-icon icon-medium"></i>
+              </a>
+            </li>
+
+            <li class="social-list__item">
+              <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                <i class="fontello-icon icon-twitter"></i>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                <i class="fontello-icon icon-telegram"></i>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                <i class="fontello-icon icon-discord"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="btn-wrap">
+          <a href="https://pinksale.com" target="_blank" class="btn btn--medium btn--green btn--uppercase">
+            <span>Presale</span>
+          </a>
+        </div>
+        <div class="btn-wrap">
+          <a href="https://app.blueswap.net/#/trade" target="_blank" class="btn btn--medium btn--dblue btn--uppercase">
+            <span>OPEN APP</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <section class="promo" style="background-image: url(img/cases-bg.png); background-repeat: no-repeat; background-position: center ">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 promo__content aos-init aos-animate" data-aos="fade-right">
+            <h1>Decentralized Perpetual Exchange</h1>
+            <p>Trade BTC, ETH with up to 50x leverage directly from your wallet</p>
+
+            <div class="promo__btns-wrap">
+              <a href="https://pinksale.com" target="_blank" class="btn btn--big btn--green btn--uppercase">
+                <span>Presale</span>
+              </a>
+              <a href="https://t.me/BCPofficialgroup" target="_blank" class="btn btn--small btn--blue btn--uppercase">
+                <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; ">
+                  <i class="fontello-icon-btn fontello-icon--inline icon-telegram"></i>
+                  <span style="padding-left: 16px;">Join Telegram</span>
+
+                </div>
+              </a>
+            </div>
+
+            <div class="promo__btns-wrap">
+              <a href="#" aria-label="Coinscope home page" title="Coinscope" target="_blank" class="btn btn--white btn--uppercase">
+                <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; ">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53px" height="53px" viewBox="0 0 53 53">
+                    <path d="M 51.640625 2.609375 C 51.199219 1.878906 50.644531 1.257812 49.96875 0.800781 C 49.296875 0.34375 48.484375 0.0664062 47.636719 0.0703125 L 47.625 0.0703125 C 47.59375 0.0703125 47.554688 0.0703125 47.519531 0.0703125 L 47.519531 0.0390625 L 43.960938 0.0390625 C 43.675781 0.0195312 43.417969 0.0195312 43.191406 0.015625 C 43.054688 0.015625 42.917969 0.0273438 42.78125 0.0390625 L 42.777344 0.0390625 C 42.082031 0.113281 41.421875 0.367188 40.859375 0.75 C 39.84375 1.4375 39.109375 2.488281 38.605469 3.734375 C 38.101562 4.988281 37.832031 6.460938 37.828125 8.089844 C 37.832031 10.265625 38.304688 12.25 39.160156 13.800781 C 39.589844 14.578125 40.121094 15.253906 40.792969 15.765625 C 41.125 16.023438 41.496094 16.234375 41.902344 16.386719 C 42.246094 16.511719 42.613281 16.589844 42.992188 16.609375 L 42.992188 16.613281 L 43.027344 16.613281 C 43.082031 16.613281 43.136719 16.621094 43.195312 16.621094 L 43.195312 16.613281 L 47.035156 16.613281 C 47.234375 16.644531 47.433594 16.667969 47.636719 16.667969 C 48.085938 16.667969 48.523438 16.582031 48.929688 16.433594 C 49.640625 16.167969 50.238281 15.71875 50.738281 15.171875 C 51.484375 14.347656 52.027344 13.300781 52.410156 12.105469 C 52.792969 10.914062 53 9.570312 53 8.144531 C 52.996094 5.96875 52.523438 4.070312 51.640625 2.609375 Z M 42.210938 13.214844 C 41.824219 12.792969 41.425781 12.089844 41.144531 11.199219 C 40.859375 10.3125 40.6875 9.242188 40.6875 8.089844 C 40.6875 6.34375 41.09375 4.914062 41.636719 4.027344 C 41.90625 3.585938 42.199219 3.28125 42.464844 3.101562 C 42.652344 2.980469 42.8125 2.914062 42.976562 2.882812 L 43.375 2.882812 C 43.15625 3.34375 42.960938 3.832031 42.808594 4.351562 C 42.460938 5.5 42.273438 6.785156 42.273438 8.144531 C 42.273438 9.484375 42.457031 10.75 42.796875 11.890625 C 42.996094 12.570312 43.257812 13.195312 43.570312 13.769531 L 43.109375 13.769531 C 43.042969 13.761719 42.972656 13.75 42.898438 13.722656 C 42.710938 13.652344 42.472656 13.5 42.210938 13.214844 Z M 49.164062 12.480469 C 48.882812 12.988281 48.566406 13.355469 48.296875 13.558594 C 48.160156 13.664062 48.039062 13.730469 47.929688 13.765625 C 47.824219 13.808594 47.730469 13.824219 47.636719 13.824219 C 47.492188 13.820312 47.347656 13.789062 47.160156 13.679688 C 46.96875 13.574219 46.746094 13.382812 46.515625 13.097656 L 45.664062 13.769531 L 46.515625 13.097656 C 46.148438 12.640625 45.789062 11.941406 45.535156 11.085938 C 45.28125 10.230469 45.132812 9.222656 45.132812 8.144531 C 45.132812 7.050781 45.285156 6.027344 45.546875 5.164062 C 45.804688 4.300781 46.171875 3.601562 46.542969 3.148438 C 46.609375 3.070312 46.652344 3.039062 46.6875 3.015625 C 46.738281 2.984375 46.789062 2.960938 46.941406 2.9375 C 47.085938 2.917969 47.320312 2.910156 47.625 2.910156 L 47.636719 2.910156 C 47.875 2.914062 48.097656 2.976562 48.367188 3.152344 C 48.761719 3.414062 49.226562 3.980469 49.570312 4.839844 C 49.917969 5.695312 50.140625 6.828125 50.140625 8.144531 C 50.144531 9.890625 49.734375 11.460938 49.164062 12.480469 Z M 49.164062 12.480469 " style="fill: rgb(255, 255, 255);"></path>
+                    <path d="M 48.074219 3.671875 C 48.074219 3.671875 46.878906 4.125 46.195312 6.332031 C 45.4375 8.765625 46.421875 12.847656 47.902344 13.015625 C 47.902344 13.015625 45.453125 7.917969 48.074219 3.671875 Z M 48.074219 3.671875 " style="fill: rgb(42, 205, 232);"></path>
+                    <path d="M 28.628906 11.570312 C 30.503906 12.808594 32.554688 13.46875 33.785156 13.710938 C 33.8125 13.714844 33.832031 13.71875 33.855469 13.722656 C 33.574219 13.261719 33.273438 12.742188 32.960938 12.164062 C 32.074219 10.515625 31.121094 8.453125 30.492188 6.308594 C 30.148438 5.144531 29.90625 3.957031 29.824219 2.792969 C 28.226562 3.230469 25.96875 4.382812 24.851562 7.40625 C 25.179688 8.089844 25.578125 8.714844 26.035156 9.273438 C 26.789062 10.191406 27.6875 10.953125 28.628906 11.570312 Z M 28.628906 11.570312 " style="fill: rgb(24, 214, 234);"></path>
+                    <path d="M 40.558594 2.519531 L 31.601562 2.519531 C 31.601562 2.519531 31.589844 2.519531 31.574219 2.519531 C 31.679688 4.480469 32.375 6.726562 33.246094 8.730469 C 34.1875 10.914062 35.320312 12.824219 36 13.824219 C 36.035156 13.875 36.066406 13.917969 36.097656 13.964844 L 40.609375 13.964844 Z M 40.558594 2.519531 " style="fill: rgb(255, 255, 255);"></path>
+                    <path d="M 32.777344 15.273438 C 32.074219 15.097656 31.25 14.832031 30.375 14.464844 C 28.621094 13.730469 26.652344 12.578125 25.0625 10.824219 C 24.789062 10.523438 24.527344 10.207031 24.28125 9.867188 C 24.246094 10.164062 24.214844 10.464844 24.195312 10.785156 L 24.195312 22.074219 C 25.914062 21.292969 27.800781 20.792969 29.777344 20.660156 L 29.789062 20.660156 C 30.074219 20.644531 30.359375 20.636719 30.644531 20.636719 C 31.886719 20.636719 33.128906 20.800781 34.339844 21.117188 L 34.339844 15.886719 C 34.324219 15.769531 34.320312 15.65625 34.320312 15.554688 C 33.90625 15.515625 33.398438 15.429688 32.777344 15.273438 Z M 32.777344 15.273438 " style="fill: rgb(255, 255, 255);"></path>
+                    <path d="M 8.390625 45.574219 C 8.90625 45.460938 9.378906 45.316406 9.898438 45.109375 C 10.351562 44.9375 10.835938 44.710938 11.285156 44.472656 C 13.101562 43.5 14.648438 42.125 15.964844 40.664062 C 16.632812 39.9375 17.238281 39.175781 17.820312 38.414062 C 18.398438 37.65625 18.957031 36.894531 19.484375 36.136719 C 20.015625 35.378906 20.539062 34.636719 21.0625 33.925781 C 21.582031 33.214844 22.105469 32.511719 22.628906 31.894531 C 23.628906 30.75 24.808594 29.773438 26.117188 29.101562 C 27.414062 28.421875 28.816406 28.011719 30.171875 27.984375 C 31.53125 27.929688 32.835938 28.234375 33.996094 28.882812 C 34.289062 29.039062 34.574219 29.21875 34.855469 29.414062 C 34.992188 29.515625 35.125 29.621094 35.261719 29.730469 L 35.460938 29.894531 L 35.628906 30.042969 L 35.875 30.277344 L 36.015625 30.421875 C 36.125 30.535156 36.230469 30.652344 36.328125 30.777344 C 36.527344 31.019531 36.703125 31.28125 36.867188 31.546875 C 37.523438 32.617188 37.8125 33.910156 37.726562 35.191406 C 37.648438 36.476562 37.144531 37.722656 36.320312 38.757812 C 36.101562 39.023438 35.902344 39.242188 35.671875 39.441406 C 35.445312 39.644531 35.195312 39.816406 34.933594 39.976562 C 34.410156 40.289062 33.808594 40.507812 33.179688 40.601562 C 32.550781 40.691406 31.890625 40.683594 31.246094 40.53125 C 30.605469 40.386719 29.988281 40.109375 29.421875 39.726562 L 29.226562 39.589844 L 29.015625 39.417969 C 28.894531 39.316406 28.78125 39.203125 28.667969 39.089844 C 28.449219 38.855469 28.261719 38.59375 28.09375 38.308594 C 27.765625 37.742188 27.578125 37.066406 27.554688 36.367188 C 27.523438 35.667969 27.679688 34.945312 28 34.273438 C 28.078125 34.109375 28.175781 33.933594 28.269531 33.789062 L 28.335938 33.679688 L 28.441406 33.542969 L 28.492188 33.472656 L 28.503906 33.453125 L 28.5 33.457031 L 28.523438 33.429688 L 28.609375 33.320312 C 28.847656 33.042969 29.125 32.785156 29.449219 32.574219 C 30.089844 32.160156 30.898438 31.917969 31.746094 31.9375 C 32.597656 31.941406 33.46875 32.238281 34.234375 32.773438 C 33.703125 32.003906 32.863281 31.414062 31.894531 31.101562 C 30.925781 30.800781 29.820312 30.800781 28.789062 31.15625 C 28.273438 31.332031 27.773438 31.585938 27.328125 31.925781 L 27.164062 32.054688 L 27.125 32.085938 C 27.082031 32.125 27.101562 32.105469 27.089844 32.117188 L 27.074219 32.132812 L 27.007812 32.1875 L 26.871094 32.300781 L 26.714844 32.453125 C 26.503906 32.65625 26.332031 32.851562 26.152344 33.066406 C 25.460938 33.929688 24.992188 34.988281 24.792969 36.113281 C 24.597656 37.242188 24.691406 38.433594 25.074219 39.558594 C 25.265625 40.121094 25.53125 40.664062 25.863281 41.164062 C 26.03125 41.414062 26.210938 41.660156 26.40625 41.886719 C 26.460938 41.949219 26.496094 41.996094 26.566406 42.070312 L 26.683594 42.203125 C 26.796875 42.320312 26.902344 42.425781 27.003906 42.527344 C 28.671875 44.152344 31.074219 45.085938 33.496094 45.007812 C 34.703125 44.972656 35.921875 44.699219 37.046875 44.199219 C 37.613281 43.949219 38.148438 43.636719 38.648438 43.273438 C 39.152344 42.914062 39.621094 42.496094 40.023438 42.082031 C 41.675781 40.398438 42.757812 38.136719 43.0625 35.773438 C 43.386719 33.40625 42.90625 30.929688 41.734375 28.808594 C 41.445312 28.28125 41.105469 27.777344 40.726562 27.304688 C 40.539062 27.066406 40.34375 26.835938 40.140625 26.617188 L 39.984375 26.449219 L 39.800781 26.265625 L 39.550781 26.019531 L 39.207031 25.703125 L 38.878906 25.421875 C 38.660156 25.238281 38.433594 25.058594 38.199219 24.886719 C 37.734375 24.542969 37.242188 24.226562 36.726562 23.941406 C 34.660156 22.808594 32.222656 22.285156 29.894531 22.425781 C 27.5625 22.578125 25.355469 23.320312 23.453125 24.457031 C 21.550781 25.601562 19.917969 27.105469 18.667969 28.867188 C 18.070312 29.710938 17.558594 30.523438 17.070312 31.351562 C 16.589844 32.175781 16.144531 32.992188 15.699219 33.792969 C 15.253906 34.59375 14.828125 35.386719 14.390625 36.15625 C 13.953125 36.921875 13.496094 37.664062 13.027344 38.382812 C 12.082031 39.808594 11.035156 41.117188 9.753906 42.15625 C 9.429688 42.421875 9.121094 42.660156 8.746094 42.894531 C 8.441406 43.097656 8.058594 43.304688 7.699219 43.476562 C 6.960938 43.824219 6.160156 44.058594 5.316406 44.183594 C 3.625 44.425781 1.789062 44.179688 0 43.65625 C 1.523438 44.722656 3.316406 45.554688 5.332031 45.753906 C 6.335938 45.867188 7.375 45.792969 8.390625 45.574219 Z M 8.390625 45.574219 " style="fill: rgb(24, 214, 234);"></path>
+                    <path d="M 39.710938 45.714844 C 37.46875 46.9375 35.160156 47.796875 33.015625 47.90625 C 30.878906 48.015625 28.929688 47.4375 27.132812 46.230469 C 26.222656 45.648438 25.386719 44.894531 24.582031 44.082031 C 24.183594 43.671875 23.804688 43.234375 23.449219 42.78125 C 23.265625 42.554688 23.089844 42.328125 22.921875 42.101562 L 22.679688 41.761719 L 22.488281 41.480469 L 22.316406 41.222656 C 22.035156 40.804688 21.625 40.457031 21.121094 40.242188 C 19.746094 39.667969 18.160156 40.308594 17.582031 41.675781 C 17.285156 42.375 16.957031 43.042969 16.554688 43.644531 C 16.144531 44.246094 15.691406 44.804688 15.160156 45.300781 C 14.101562 46.289062 12.75 47.0625 11.175781 47.570312 C 9.609375 48.101562 7.855469 48.367188 6.039062 48.488281 C 4.21875 48.605469 2.335938 48.578125 0.394531 48.433594 C 2.019531 49.527344 3.855469 50.289062 5.785156 50.820312 C 7.71875 51.34375 9.785156 51.582031 11.929688 51.394531 C 14.054688 51.195312 16.292969 50.5 18.203125 49.15625 C 18.890625 48.679688 19.53125 48.128906 20.109375 47.523438 C 20.230469 47.660156 20.347656 47.800781 20.472656 47.933594 C 21.519531 49.074219 22.753906 50.085938 24.128906 50.945312 C 25.519531 51.78125 27.085938 52.441406 28.746094 52.753906 C 29.578125 52.910156 30.421875 52.984375 31.265625 52.984375 C 32.105469 52.96875 32.9375 52.871094 33.738281 52.707031 C 34.542969 52.546875 35.316406 52.296875 36.050781 52 C 36.785156 51.703125 37.480469 51.351562 38.132812 50.957031 C 39.445312 50.171875 40.601562 49.234375 41.628906 48.214844 C 43.675781 46.167969 45.265625 43.839844 46.433594 41.308594 C 44.144531 42.914062 41.96875 44.492188 39.710938 45.714844 Z M 39.710938 45.714844 " style="fill: rgb(24, 214, 234);"></path>
+                  </svg>
+                  <span style="margin-left: 20px;">Audit report</span>
+                </div>
+              </a>
+            </div>
+
+            <br>
+
+
+            <div class="data__info">
+              <div class="data__info-item">
+                Contract address
+                <b style="color: #FFF;">0xf64896032ECa8077A283916f9FE7693383B8a6EB</b>
+              </div>
+              <div class="data__info-item">
+                Symbol
+                <b style="color: #77c0f6;">BCP</b>
+              </div>
+              <div class="data__info-item">
+                Decimal
+                <b style="color: #16c784">18</b>
+              </div>
+              <div class="data__info-item">
+                Network
+                <b style="color: #f3d667;">Ethereum</b>
+              </div>
+            </div>
+
+
+              <div class="payments">
+                <ul class="social-list">
+                  <li class="social-list__item">
+                    <a href="https://twitter.com/BCPoffical" target="_blank" class="social-list__link">
+                      <i class="fontello-icon icon-medium"></i>
+                    </a>
+                  </li>
+      
+                  <li class="social-list__item">
+                    <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                      <i class="fontello-icon icon-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="social-list__item">
+                    <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                      <i class="fontello-icon icon-telegram"></i>
+                    </a>
+                  </li>
+                  <li class="social-list__item">
+                    <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                      <i class="fontello-icon icon-discord"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <img src="img/scroll-down.png" alt="">
+      </div>
+    </section>
+
+    <section class="partners" style="z-index: auto; padding-bottom: 60px;">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="section-header section-header--tire s ection-header--medium-margin">
+              <h4>As featured on</h4>
+            </div>
+
+            <div class="logoes">
+              <div>
+                <a href="#">
+                  <img src="img/yahoo.png" alt="">
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img src="img/marketwatch.png" alt="">
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img src="img/bitcoin-insider.png" alt="">
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img src="img/benzinga.png" alt="">
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <img src="img/digital-journal.png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="economy" style="padding: 100px 0px;"><img src="img/cases-imgs.png" class="cases__elements" alt="">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="economy__block" style="border-radius: 25px;">
+              <div class="economy__block-content">
+                <div class="section-header section-header--white section-header--tire section-header--small-margin">
+                  <h4>Products</h4>
+                  <h2>The BlueChip Protocol</h2>
+                </div>
+                <p>
+                  A high leverage zero-fee exchange with DeFi protocols, NFT projects, and dApps facilitating the creator’s economy with cross-chain exploration.
+                </p>
+                <ul>
+                  <li><span>100% APR</span> staking</li>
+                  <li><span>0% fee</span> trading</li>
+                  <li><span>NFT</span> marketplace</li>
+                  <li><span>GameFi</span> base on Metaverse </li>
+                </ul>
+              <br>
+                <p>
+                  <span>BlueChip</span> is the first fully-permissionless DEX for trading perpetual contracts, powered by BlueChip's revolutionary AMM technology. 
+                  <br/>Our product will integrate with DeFi protocols, NFT projects, dApps, gameFi and the Metaverse.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about" style="background: linear-gradient(179deg, #171924, transparent);">
+      <div class="container">
+        <div class="row">
+          <div data-aos="fade-right" class="col-lg-5 aos-init aos-animate">
+            <div class="section-header section-header--animated section-header--tire section-header--small-margin">
+              <h4>Products</h4>
+              <h2>The Exchange</h2>
+            </div>
+            <div class="about__animated-content">
+              <p>
+                A fully decentralized yield margin cryptocurrency exchange with No KYC, 0% fees and an NFT marketplace. <br>
+                Our exchange enables users to trade, lend, borrow, earn &amp; stake tokens anonymously with minimal trading fees.
+              </p>
+              <ul>
+                <li><span>No</span> KYC</li>
+                <li><span>0%</span> fees</li>
+                <li><span>Up to 50x</span> margin leverage trading</li>
+                <li><span>Arbitrum</span> network</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-1 align-items-center">
+            <img src="img/bg1.svg" class="cases__bg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--no-pad-bot services" id="tokenomics" style=" background-image: url(img/about-bg.png); background-repeat: no-repeat; background-position: center ">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="section-header section-header--animated section-header--center section-header--medium-margin">
+              <h2>Tokenomics</h2>
+            </div>
+
+            <div class="services__items">
+              <div class="services__left">
+                <div data-aos="fade-up" class="service aos-init aos-animate">
+                  <div class="service__bg" style="
+                      background-color: #19fbd6;
+                      box-shadow: 0 0 51px #19fbd6;
+                      box-shadow: 0 0 51px #19fbd6;
+                    "></div>
+                  <img src="img/service-icon-2.svg" alt="">
+                  <div class="service__title">3% Marketing</div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200" class="service aos-init aos-animate">
+                  <div class="service__bg" style="
+                      background-color: #0dd0ff;
+                      box-shadow: 0 0 51px #0dd0ff;
+                      box-shadow: 0 0 51px #0dd0ff;
+                    "></div>
+                  <img src="img/service-icon-1.svg" alt="">
+                  <div class="service__title">4% Development</div>
+                </div>
+              </div>
+              <div class="services__right">
+                <div data-aos="fade-up" data-aos-delay="400" class="service aos-init aos-animate">
+                  <div class="service__bg" style="
+                      background-color: #197aff;
+                      box-shadow: 0 0 51px #197aff;
+                      box-shadow: 0 0 51px #197aff;
+                    "></div>
+                  <img src="img/service-icon-3.svg" alt="">
+                  <div class="service__title">3% Rewards</div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="600" class="service aos-init aos-animate">
+                  <div class="service__bg" style="
+                      background-color: #3648f2;
+                      box-shadow: 0 0 51px #3648f2;
+                      box-shadow: 0 0 51px #3648f2;
+                    "></div>
+                  <img src="img/service-icon-4.svg" alt="">
+                  <div class="service__title">1% Charity</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="padding: 150px 0;">
+        <div class="row">
+          <img src="img/logo-512.png" class="token__img" alt="" style="margin-top: 190px;">
+          <div data-aos="fade-left" class="col-lg-6 offset-lg-6 token__animated-content aos-init aos-animate">
+            <div class="section-header section-header--tire section-header--small-margin">
+              <h4>Tokenomics</h4>
+            </div>
+
+            <div class="token__desc">
+              <div class="token__desc-text">
+                <p>
+                  There will be an 11% buy and sell tax used for staking rewards and supporting product development.
+                </p>
+              </div>
+            </div>
+
+            <ul class="token__info-list">
+              <li>
+                <span>3%</span>For marketing to increase project awareness.
+              </li>
+              <li>
+                <span>4%</span>For project development. Additionally, we will manually burn tokens from this wallet to reduce the coin supply and increase liquidity, which is beneficial for all token holders.
+              </li>
+              <li>
+                <span>3%</span>For rewards to be used to pay holders USDC who stake their coins.
+              </li>
+              <li>
+                <span>1%</span>For the charity donations.
+              </li>
+            </ul>
+
+            <div class="token__desc">
+              <div class="token__desc-title">Charity</div>
+              <div class="token__desc-text">
+                We believe in giving back to the community. Therefore, 1% of all fees generated will automatically be stored in a charity wallet. At the end of each month, we will donate to a chosen charity.
+                We will vote in our telegram community group for users to choose a charity and provide proof of transfer for total clarity on fund usage.
+                <p></p>
+                <a href="https://t.me/BCPofficialgroup" target="_blank" class="btn btn--small btn--blue btn--uppercase">
+                  <div style="display: flex; flex-direction: row; align-items: center; ">
+                    <span>Join Telegram</span>
+                    <i class="fontello-icon-btn fontello-icon--inline icon-telegram"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section map" id="map" style="background: #171924;">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="section-header section-header--animated section-header--center section-header--medium-margin">
+              <h4>Our way</h4>
+              <h2>Road Map</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 offset-lg-4 col-sm-8 offset-sm-4">
+            <div class="road">
+              <div class="road__item road__item-active">
+                <div class="road__item-metka"></div>
+                <div class="road__item-content">
+                  <div class="road__item-title">Q1</div>
+                  <p>
+                    </p><ul>
+                      <li class="complete">Team development</li>
+                      <li class="complete">Pre sale</li>
+                      <li class="">Uniswap swap launch</li>
+                      <li class="">Telegram group 1000 members</li>
+                    </ul>
+                  <p></p>
+                </div>
+              </div>
+
+              <div class="road__item road__item-next">
+                <div class="road__item-metka"></div>
+                <div class="road__item-content">
+                  <div class="road__item-title">Q2</div>
+                  <p>
+                    </p><ul>
+                      <li>Coin market cap listing</li>
+                      <li>Coin gecko listing</li>
+                      <li>Staking up to 100% APR</li>
+                      <li>CEX listings for BCP</li>
+                      <li>iOS &amp; Android wallet app </li>
+                      <li>DeFi protocols, NFT projects, dApps integration</li>
+                      <li>Launchpad initiative</li>
+                      <li>Telegram group 10,000-30,000</li>
+                      <li>Wallet Holders 5,000</li>
+                      <li>Cross-chain exploration and bridging</li>
+                    </ul>
+
+                  <p></p>
+                </div>
+              </div>
+
+              <div class="road__item road__item-next">
+                <div class="road__item-metka"></div>
+                <div class="road__item-content">
+                  <div class="road__item-title">Q3</div>
+                  <p>
+                    </p><ul>
+                      <li>Exchange beta launch</li>
+                      <li>Mass adoption of blockchain</li>
+                      <li>Telegram 50,000 users</li>
+                      <li>Futures trading</li>
+                      <li>Leverage</li>
+                      <li>Wallet Holders 50,000</li>
+                    </ul>
+                  <p></p>
+                </div>
+              </div>
+
+              <div class="road__item road__item-next">
+                <div class="road__item-metka"></div>
+                <div class="road__item-content">
+                  <div class="road__item-title">Q4</div>
+                  <p>
+                    </p><ul>
+                      <li>
+                        More to be announced
+                      </li>
+                    </ul>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="img/road_map.png" data-jarallax-element="-40" alt="" class="map__title-bg" style="z-index: 0; transform: translate3d(0px, 1024.44px, 0px);" data-jarallax-original-styles="z-index: 0; transform: translate3d(0px, 28.9198px, 0px);">
+      </div>
+    </section>
+
+
+
+    <section class="section cases"><img src="img/cases-bg.png" class="cases__bg" alt="">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="section-header section-header--animated section-header--center section-header--medium-margin">
+              <h2>Why use BCP?</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col cases__list">
+            <div data-aos="fade-right" class="cases__item aos-init aos-animate">
+              <img src="img/cases-icon-5.svg" alt="" class="cases__item-icon">
+              <div class="cases__item-content">
+                <div class="cases__item-title">Reduce Liquidation Risks</div>
+                <p class="cases__item-text">
+                  An aggregate of high-quality price feeds determine when liquidations occur. This keeps positions safe from temporary wicks.
+                </p>
+              </div>
+            </div>
+            <div data-aos="fade-left" data-aos-delay="200" class="cases__item aos-init aos-animate">
+              <img src="img/cases-icon-6.svg" alt="" class="cases__item-icon">
+              <div class="cases__item-content">
+                <div class="cases__item-title">Save on Costs</div>
+                <p class="cases__item-text">
+                  Enter and exit positions with minimal spread and zero price impact. Get the optimal price without incurring additional costs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <a href="https://app.blueswap.net/#/trade" class="btn btn--orange btn--uppercase"><span>Start Trading</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="data token-data section section--no-pad-bot distribution" id="distribution" style="background: #171924;">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="section-header section-header--animated section-header--medium-margin section-header--center">
+              <h4>Our data</h4>
+              <h2>Token Distribution</h2>
+              <div class="bg-title">Token Distribution</div>
+            </div>
+          </div>
+        </div>
+        <div class="row chart__row align-items-center">
+          <div class="col-lg-6">
+            <div class="chart">
+              <div class="chart__wrap"><div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+                <canvas id="myChart" width="315" height="315" class="chartjs-render-monitor" style="display: block; width: 315px; height: 315px;"></canvas>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-left" class="col-lg-6 token-data__animated-content aos-init aos-animate">
+            <div class="chart__title">Allocation of funds</div>
+            <p class="chart__text">
+              Total Supply: 10,000,000,000
+            </p>
+            <ul class="chart__legend">
+              <li>
+                <span class="token1" style="width: 5%"></span>
+                7% for private sale
+              </li>
+              <li>
+                <span class="token2" style="width: 5%"></span>
+                26% for presale
+              </li>
+              <li>
+                <span class="token3" style="width: 5%"></span>
+                15% of tokens for the team and advisors, locked.
+              </li>
+              <li>
+                <span class="token4" style="width: 5%"></span>
+                12% for liquidity pool UNISWAP.
+              </li>
+              <li>
+                <span class="token5" style="width: 5%"></span>
+                20% for implementation on large exchanges.
+              </li>
+              <li>
+                <span class="token6" style="width: 5%"></span>
+                10% to burn - 5% on launch, 5% once live.
+              </li>
+              <li>
+                <span class="token7" style="width: 5%"></span>
+                10% for extra UNISWAP liquidity, locked.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="logo__img"></div>
+            <div class="copyright">© 2022</div>
+          </div>
+          <div class="col-lg-4">
+            <div class="social-block">
+              <div class="social-block__title">Stay connected:</div>
+
+              <ul class="social-list">
+                <li class="social-list__item">
+                  <a href="https://twitter.com/BCPoffical" target="_blank" class="social-list__link">
+                    <i class="fontello-icon icon-medium"></i>
+                  </a>
+                </li>
+    
+                <li class="social-list__item">
+                  <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                    <i class="fontello-icon icon-twitter"></i>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                    <i class="fontello-icon icon-telegram"></i>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                    <i class="fontello-icon icon-discord"></i>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                    <i class="fontello-icon icon-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <a href="/others/white-paper.pdf" target="_blank" class="btn btn--medium btn--blue btn--uppercase" style="margin-top: 25px;">
+              <span>Whitepaper</span>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    window.jQuery ||
+      document.write('<script src="js/jquery-2.2.4.min.js"><\/script>')
+  </script>
+
+  <script src="js/scripts.min.js"></script>
+
+</body>
+
+<!-- Mirrored from www.xo-dex.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Apr 2022 08:26:41 GMT -->
+</html>
