@@ -7117,6 +7117,50 @@ section {
   content: "%"
 }
 
+.nft {
+  background-color: #0c0c0c;
+  padding-bottom: 240px;
+  position: relative
+}
+.nft-panel {
+  border-radius: 20px;
+  border: 1px solid #424242;
+}
+.nft-panel .pic {
+  padding: 100px 50px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  background: #fff;
+  text-align: center;
+}
+.nft-panel .pic img {
+  width: 100px;
+}
+.nft-panel .full-pic img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.nft-panel .post {
+  padding: 15px;
+}
+.nft-panel .post .desc {
+  margin-top: 5px;
+  font-size: 17px;
+  line-height: 1.3;
+}
+.nft-panel .post .quote {
+  margin-top: 6px;
+  color: white;
+  font-size: 18px;
+}
+.nft .see-more a {
+  color: #aab2cd;
+}
+.nft .see-more a:hover {
+  color: #fff;
+}
+
 .economy {
   background-color: #0c0c0c;
   padding-bottom: 240px;

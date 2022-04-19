@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+  
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta charset="utf-8" />
+
+    <title>BlueChip (BCP) - NFT</title>
+    <meta name="description" content="A high speed zero fee protocol with DeFi protocols, NFT projects, GameFi and dApps." />
+    <meta name="keywords" content="bcp, bcp protocol, bcp exchange, bcp coin, bcp defi, bcp token">
+    <meta name="author" content="BlueChip">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.html" />
+    <link rel="icon" href="img/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon-180x180.png"
+    />
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000" />
+    <!-- Custom Browsers Color End -->
+
+    <link rel="stylesheet" href="css/main.min.css" />
+
+    <!-- Load google font
+	================================================== -->
+
+    <script type="text/javascript">
+      WebFontConfig = {
+        google: {
+          families: [
+            'Catamaran:300,400,600,700',
+            'Raleway:100,700',
+            'Roboto:700,900',
+          ],
+        },
+      }
+      ;(function () {
+        var wf = document.createElement('script')
+        wf.src =
+          ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js'
+        wf.type = 'text/javascript'
+        wf.async = 'true'
+        var s = document.getElementsByTagName('script')[0]
+        s.parentNode.insertBefore(wf, s)
+      })()
+    </script>
+
+  <!-- Load other scripts
+	================================================== -->
+
+  <script type="text/javascript">
+    var _html = document.documentElement
+    _html.className = _html.className.replace('no-js', 'js')
+  </script>
+
+  <style>
+    .preloader {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      background-color: #fff;
+      z-index: 9999;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="preloader"></div>
+
+  <div class="wrapper">
+    <header class="header">
+      <a href="https://www.blueswap.net/" class="logo">
+        <div class="logo__img"></div>
+      </a>
+
+      <ul class="menu">
+        <li class="menu__item">
+          <a href="/#about" class="menu__link">About</a>
+        </li>
+        <li class="menu__item">
+          <a href="/#tokenomics" class="menu__link">Tokenomics</a>
+        </li>
+        <li class="menu__item">
+          <a href="/#map" class="menu__link">Road Map</a>
+        </li>
+        <li class="menu__item">
+          <a href="/#distribution" class="menu__link">Token</a>
+        </li>
+        <li class="menu__item">
+          <a href="/nft" class="menu__link active">NFT</a>
+        </li>
+        <li class="menu__item">
+          <a href="/games" class="menu__link">Games</a>
+        </li>
+        <li class="mob-menu__item">
+          <a href="https://docs.blueswap.net/" class="menu__link">Doc</a>
+        </li>
+      </ul>
+
+      <div class="social-blocktop">
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a href="https://twitter.com/BCPoffical" target="_blank" class="social-list__link">
+              <i class="fontello-icon icon-twitter"></i>
+            </a>
+          </li>
+
+          <li class="social-list__item">
+            <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+              <i class="fontello-icon icon-telegram"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+              <i class="fontello-icon icon-discord"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="header__right">
+        <div class="sign-in-wrap">
+
+          <a href="https://pinksale.com" target="_blank" class="btn btn--medium btn--green btn--uppercase">
+              <span>Presale</span>
+          </a>
+          <a href="https://app.blueswap.net/#/trade" target="_blank" class="btn btn--medium btn--dblue btn--uppercase">
+            <span>OPEN APP</span>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="btn-menu">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+    </header>
+
+    <div class="fixed-menu">
+      <div class="fixed-menu__header">
+        <a href="#" class="logo">
+          <div class="logo__img"></div>
+        </a>
+
+        <div class="btn-close">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 47.971 47.971" style="enable-background: new 0 0 47.971 47.971" xml:space="preserve" width="512px" height="512px">
+            <path d="M28.228,23.986L47.092,5.122c1.172-1.171,1.172-3.071,0-4.242c-1.172-1.172-3.07-1.172-4.242,0L23.986,19.744L5.121,0.88   c-1.172-1.172-3.07-1.172-4.242,0c-1.172,1.171-1.172,3.071,0,4.242l18.865,18.864L0.879,42.85c-1.172,1.171-1.172,3.071,0,4.242   C1.465,47.677,2.233,47.97,3,47.97s1.535-0.293,2.121-0.879l18.865-18.864L42.85,47.091c0.586,0.586,1.354,0.879,2.121,0.879   s1.535-0.293,2.121-0.879c1.172-1.171,1.172-3.071,0-4.242L28.228,23.986z" fill="#006DF0"></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="fixed-menu__content">
+        <ul class="mob-menu">
+          <li class="menu__item">
+            <a href="/#about" class="menu__link">About</a>
+          </li>
+          <li class="menu__item">
+            <a href="/#tokenomics" class="menu__link">Tokenomics</a>
+          </li>
+          <li class="menu__item">
+            <a href="/#map" class="menu__link">Road Map</a>
+          </li>
+          <li class="menu__item">
+            <a href="/#distribution" class="menu__link">Token</a>
+          </li>
+          <li class="menu__item">
+            <a href="/nft" class="menu__link active">NFT</a>
+          </li>
+          <li class="menu__item">
+            <a href="/games" class="menu__link">Games</a>
+          </li>
+          <li class="mob-menu__item">
+            <a href="https://docs.blueswap.net/" class="menu__link">Doc</a>
+          </li>
+        </ul>
+
+        <div class="social-block">
+          <ul class="social-list">
+            <li class="social-list__item">
+              <a href="https://twitter.com/BCPoffical" target="_blank" class="social-list__link">
+                <i class="fontello-icon icon-medium"></i>
+              </a>
+            </li>
+
+            <li class="social-list__item">
+              <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                <i class="fontello-icon icon-twitter"></i>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                <i class="fontello-icon icon-telegram"></i>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                <i class="fontello-icon icon-discord"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="btn-wrap">
+          <a href="https://pinksale.com" target="_blank" class="btn btn--medium btn--green btn--uppercase">
+            <span>Presale</span>
+          </a>
+        </div>
+        <div class="btn-wrap">
+          <a href="https://app.blueswap.net/#/trade" target="_blank" class="btn btn--medium btn--dblue btn--uppercase">
+            <span>OPEN APP</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <section class="nft" style="padding: 100px 0px;margin-top: 90px;"><img src="img/cases-imgs.png" class="cases__elements" alt="">
+      <div class="container">
+        <h1><span style="color: #efefef;">COMING SOON</span></h1>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="nft-panel">
+              <div class="pic">
+                <img src="img/nft/8IEKEP48.png"/>
+              </div>
+              <div class="post">
+                <h3 class="title">Immune Chip of BlueChip</h3>
+                <p class="desc">Own the exclusive NFT from BlueChip Collection - Collect all 10 to build out your stash!</p>
+                <div class="quote">
+                  <p>Price: <b>10,000</b> BCP</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="nft-panel">
+              <div class="full-pic">
+                <img src="img/nft/17PS3WE8.gif"/>
+              </div>
+              <div class="post">
+                <h3 class="title">Enterprise Chip of BlueChip</h3>
+                <p class="desc">Own the exclusive NFT from BlueChip Collection - Collect all 1,000,000 to build out your stash!</p>
+                <div class="quote">
+                  <p>Price: <b>1,000,000</b> BCP</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="nft-panel">
+              <div class="pic">
+                <img src="img/nft/2E87EDOB.png"/>
+              </div>
+              <div class="post">
+                <h3>Premium Chip of BlueChip</h3>
+                <p>Own the exclusive NFT from BlueChip Collection - Collect all 10,000 to build out your stash!</p>
+                <div class="quote">
+                  <p>Price: 10,000 BCP</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="see-more" style="text-align: center; margin-top: 25px;">
+              <a href="#">Load More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="logo__img"></div>
+            <div class="copyright">© 2022</div>
+          </div>
+          <div class="col-lg-4">
+            <div class="social-block">
+              <div class="social-block__title">Stay connected:</div>
+
+              <ul class="social-list">
+                <li class="social-list__item">
+                  <a href="https://twitter.com/BCPoffical" target="_blank" class="social-list__link">
+                    <i class="fontello-icon icon-medium"></i>
+                  </a>
+                </li>
+    
+                <li class="social-list__item">
+                  <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                    <i class="fontello-icon icon-twitter"></i>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                    <i class="fontello-icon icon-telegram"></i>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                    <i class="fontello-icon icon-discord"></i>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="https://t.me/BCPofficialgroup" target="_blank" class="social-list__link">
+                    <i class="fontello-icon icon-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <a href="/others/white-paper.pdf" target="_blank" class="btn btn--medium btn--blue btn--uppercase" style="margin-top: 25px;">
+              <span>Whitepaper</span>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    window.jQuery ||
+      document.write('<script src="js/jquery-2.2.4.min.js"><\/script>')
+  </script>
+
+  <script src="js/scripts.min.js"></script>
+
+</body>
+</html>
